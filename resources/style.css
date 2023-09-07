@@ -13,6 +13,9 @@ body {
 a {
     text-decoration: none;
 }
+h1 {
+    font-size: 2.5rem;
+}
 nav {
     background-color: ghostwhite;
     display: flex;
@@ -21,6 +24,9 @@ nav {
 }
 .menu a {
     color: gray;
+}
+.menu a:hover {
+    text-decoration: underline;
 }
 ul {
     list-style: none;
@@ -46,7 +52,7 @@ li {
 .start {
     display: flex;
     background-color: lightgray;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.7);
 }
 .startimage {
     width: 60%;
@@ -60,13 +66,18 @@ li {
     margin: 7rem 4rem 4rem 4rem;
 }
 .starttext p {
+    font-size: 1.25rem;
     font-weight: 600;
+    line-height: 1.5;
 }
 .button {
-    padding: 0.5rem 6rem 0.5rem 6rem;
-    border: 1px solid rgba(0, 0, 0, 0.6);
-    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.7rem 7rem 0.7rem 7rem;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     color: ghostwhite;
     font-size: 0.875rem;
     font-weight: 600;
+}
+.button:hover {
+    color: yellow;
 }
