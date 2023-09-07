@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    color: gray;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+}
+.menu a {
+    color: gray;
+}
+ul {
+    list-style: none;
+    display: inline-flex;
+    margin:  0 0.5rem 0 0;   
+}
+li {
+    padding: 1.375rem 1rem 1.375rem 0;
+}
+.logo {
+    display: flex;
+}
+.logoimg {
+    height: 40px;
+    margin: 0.75rem 0.5rem 0.75rem 1.5rem;
+}
+.logo p {
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+.start {
+    display: flex;
+    background-color: lightgray;
+    color: rgba(0, 0, 0, 0.6);
+}
+.startimage {
+    width: 60%;
+}
+.startimage img {
+    width: 100%;
+    margin: 2rem 0 2rem 1.5rem;
+}
+.starttext {
+    width: 30%;
+    margin: 7rem 4rem 4rem 4rem;
+}
+.starttext p {
+    font-weight: 600;
+}
+.button {
+    padding: 0.5rem 6rem 0.5rem 6rem;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: ghostwhite;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
