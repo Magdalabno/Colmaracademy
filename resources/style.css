@@ -27,6 +27,7 @@ nav {
 }
 .menu a:hover {
     text-decoration: underline;
+    transition: 0.7s;
 }
 ul {
     list-style: none;
@@ -56,14 +57,15 @@ li {
 }
 .startimage {
     width: 60%;
+    padding: 2rem 1.5rem;
 }
 .startimage img {
     width: 100%;
-    margin: 2rem 0 2rem 1.5rem;
+    height: auto;
 }
 .starttext {
-    width: 30%;
-    margin: 7rem 4rem 4rem 4rem;
+    width: 40%;
+    
 }
 .starttext p {
     font-size: 1.25rem;
@@ -79,5 +81,51 @@ li {
     font-weight: 600;
 }
 .button:hover {
-    color: yellow;
+    color: gold;
+    transition: 0.5s;
+}
+.information {
+    display: flex;
+    color: rgba(0, 0, 0, 0.7);
+}
+.informationleft {
+    width: 60%;
+    padding: 2rem 1.5rem;
+}
+.informationleft img {
+    width: 100%;
+    height: auto;
+}
+.informationleft blockquote {
+    margin-left: 0;
+}
+.informationleft h2 {
+    margin: 2rem 0 1.5rem 0;
+    font-size: 2.125rem;
+}
+.informationleft blockquote>p {
+    font-size: 0.875rem;
+}
+.informationleft blockquote>footer {
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+.informationright {
+    width: 40%;
+    padding-top: 2rem;
+}
+.infimg {
+    display: flex;
+}
+.infimgleft {
+    width: 40%;
+}
+.infimgleft img {
+    width: 100%;
+    height: auto;
+}
+.infimgright {
+    width: 60%;
 }
