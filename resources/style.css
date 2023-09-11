@@ -27,7 +27,7 @@ nav {
 }
 .menu a:hover {
     text-decoration: underline;
-    transition: 0.7s;
+    transition: 0.4s;
 }
 ul {
     list-style: none;
@@ -65,7 +65,9 @@ li {
 }
 .starttext {
     width: 40%;
-    
+}
+.starttext h1 {
+    padding-top: 80px;
 }
 .starttext p {
     font-size: 1.25rem;
@@ -114,7 +116,7 @@ li {
 }
 .informationright {
     width: 40%;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .infimg {
     display: flex;
@@ -128,4 +130,18 @@ li {
 }
 .infimgright {
     width: 60%;
+}
+.infimgleft img {
+    padding: 1rem;
+}
+.title {
+    margin-top: 2.5rem;
+    font-weight: bold;
+}
+.read {
+    font-size: 0.875rem;
+    color: blue;
+}
+.guest {
+    background-color: lightgray;
 }
