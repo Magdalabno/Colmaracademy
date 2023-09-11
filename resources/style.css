@@ -16,6 +16,15 @@ a {
 h1 {
     font-size: 2.5rem;
 }
+h2 {
+    font-size: 2.125rem;
+}
+h3 {
+    font-size: 1rem;
+}
+img {
+    width: 100%;
+}
 nav {
     background-color: ghostwhite;
     display: flex;
@@ -103,7 +112,6 @@ li {
 }
 .informationleft h2 {
     margin: 2rem 0 1.5rem 0;
-    font-size: 2.125rem;
 }
 .informationleft blockquote>p {
     font-size: 0.875rem;
@@ -120,6 +128,7 @@ li {
 }
 .infimg {
     display: flex;
+    align-items: center;
 }
 .infimgleft {
     width: 40%;
@@ -135,8 +144,8 @@ li {
     padding: 1rem;
 }
 .title {
-    margin-top: 2.5rem;
     font-weight: bold;
+    margin-top: 0;
 }
 .read {
     font-size: 0.875rem;
@@ -144,4 +153,34 @@ li {
 }
 .guest {
     background-color: lightgray;
+}
+.learning {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+.learning h2 {
+    padding: 2rem;
+    margin:  0;
+}
+.learning p {
+    font-size: 0.875rem;;
+}
+.learningitem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item {
+    max-width: 20rem;
+    background-color: ghostwhite;
+    text-align: left;
+    margin: 0 1rem 2rem 1rem;
+}
+.item img {
+    max-width: 20rem;
+    height: auto;
+}
+.item h3, .item p {
+    margin: 1rem;
 }
