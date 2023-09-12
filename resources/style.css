@@ -113,7 +113,7 @@ li {
 .informationleft h2 {
     margin: 2rem 0 1.5rem 0;
 }
-.informationleft blockquote>p {
+.informationleft blockquote>p, .exhibitleft blockquote>p {
     font-size: 0.875rem;
 }
 .informationleft blockquote>footer {
@@ -151,7 +151,7 @@ li {
     font-size: 0.875rem;
     color: blue;
 }
-.guest {
+.guest, .fisma {
     background-color: lightgray;
 }
 .learning {
@@ -183,4 +183,48 @@ li {
 }
 .item h3, .item p {
     margin: 1rem;
+}
+.exhibit {
+    background-color: ghostwhite;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+.exhibit h2 {
+    padding: 2rem;
+    margin:  0;
+}
+.exhibitleft {
+    width: 60%;
+    padding: 0 1.5rem 2rem 1.5rem;
+    text-align: left;
+}
+.exhibitright {
+    width: 40%;
+}
+.exhibitleft video {
+    width: 100%;
+}
+.exhibitflex {
+    display: flex;
+}
+.exhibitleft blockquote {
+    margin-left: 0;
+}
+.exhibitimg {
+    display: flex;
+    align-items: center;
+}
+.exhibitimgleft {
+    width: 40%;
+}
+.exhibitimgleft img {
+    width: 100%;
+    height: auto;
+}
+.exhibitimgright {
+    width: 60%;
+    text-align: left;
+}
+.exhibitimgleft img {
+    padding: 1rem;
 }
