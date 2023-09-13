@@ -5,6 +5,8 @@ html {
     font-size: 16px;
     color: gray;
     font-family: Tahoma, Verdana, sans-serif;
+    margin: 0 4rem;
+    background-color: ghostwhite;
 }
 body {
     margin: 0;
@@ -84,16 +86,20 @@ nav {
     line-height: 1.5;
 }
 .button {
-    padding: 0.7rem 7rem 0.7rem 7rem;
+    text-align: center;
+    max-width: 18rem;
+    padding: 0.7rem 0 0.7rem 0;
     border: 1px solid rgba(0, 0, 0, 0.7);
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);  
+}
+.button a {
     color: ghostwhite;
     font-size: 0.875rem;
     font-weight: 600;
 }
-.button:hover {
+.button a:hover {
     color: gold;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .information {
     display: flex;
@@ -164,7 +170,7 @@ nav {
     margin:  0;
 }
 .learning p {
-    font-size: 0.875rem;;
+    font-size: 0.875rem;
 }
 .learningitem {
     display: flex;
@@ -224,7 +230,6 @@ nav {
 .exhibitimgright {
     width: 60%;
     text-align: left;
-    padding-bottom: 2rem;
 }
 .exhibitimgleft img {
     padding: 1rem;
@@ -236,10 +241,10 @@ footer {
     align-items: flex-start;
     padding: 0 0.5rem 1.5rem 1rem;
     background-color: ghostwhite;
-    border: 1px solid lightgray;
-    box-shadow: 0 0 2px 0;
+    border-top: 2px solid lightgray;
 }
 footer ul {
+    margin-top: 0.75rem;
     list-style: none;
     display: inline-flex;
 }
@@ -249,4 +254,43 @@ footer p, footer a {
 }
 footer li {
     padding-right: 1rem;
+}
+
+/* RESPONSYWNOŚĆ*/
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    .starttext h1 {
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.25rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 0.75rem;
+    }
+    .starttext p {
+        font-size: 1rem;
+    }
+    .button {
+        max-width: 10rem;
+    }
+    .item {
+        max-width: 15rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
 }
