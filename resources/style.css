@@ -195,8 +195,8 @@ img {
     padding: 1rem;
 }
 .informationmobile {
-    padding: 1rem 1rem 1rem 1rem;
-    border-bottom: 1 px solid rgba(0, 0, 0, 0.3)
+    padding: 1rem 1rem 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 .infimgmobile {
     color:rgba(0, 0, 0, 0.7);
@@ -248,11 +248,29 @@ img {
     margin: 0 1rem 2rem 1rem;
 }
 .item img {
-    max-width: 20rem;
+    max-width: 22rem;
     height: auto;
 }
 .item h3, .item p {
     margin: 1rem;
+}
+.learningmobile {
+    background-color: ghostwhite;
+    text-align: center;
+}
+.learningmobile h2{
+    font-size: 2rem;
+    color:rgba(0, 0, 0, 0.7)
+}
+.itemmobile {
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    text-align: left;
+}
+.itemmobile h3 {
+    padding: 1rem;
 }
 .exhibit {
     background-color: ghostwhite;
@@ -305,7 +323,7 @@ footer {
     align-items: flex-start;
     padding: 0 0.5rem 1.5rem 1rem;
     background-color: ghostwhite;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 footer ul {
     margin-top: 0.75rem;
