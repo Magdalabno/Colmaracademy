@@ -131,7 +131,7 @@ img {
 }
 .buttonmobile {
     text-align: center;
-    max-width: 22rem;
+    max-width: 30rem;
     padding: 0.7rem 0 0.7rem 0;
     border: 1px solid rgba(0, 0, 0, 0.4);
     background-color: rgba(0, 0, 0, 0.4);
@@ -257,13 +257,15 @@ img {
 .learningmobile {
     background-color: ghostwhite;
     text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 16px;
 }
 .learningmobile h2{
     font-size: 2rem;
     color:rgba(0, 0, 0, 0.7)
 }
 .itemmobile {
-    max-width: 20rem;
+    max-width: 30rem;
     background-color: rgba(0, 0, 0, 0.2);
     color: rgba(0, 0, 0, 0.6);
     margin: 0 auto;
@@ -316,7 +318,17 @@ img {
 .exhibitimgleft img {
     padding: 1rem;
 }
-footer {
+.exhibitmobile {
+    text-align: center;
+}
+.exhibitmobile h2 {
+    font-size: 2rem;
+    color:rgba(0, 0, 0, 0.7)
+}
+.exhibitmobile video {
+    width: 100%;
+}
+.footerdesktop {
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
@@ -325,17 +337,20 @@ footer {
     background-color: ghostwhite;
     border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
-footer ul {
+.footerdesktop ul {
     margin-top: 0.75rem;
     list-style: none;
     display: inline-flex;
 }
-footer p, footer a {
+.footerdesktop p, .footerdesktop a {
     font-size: 0.75rem;
     color:rgba(0, 0, 0, 0.7)
 }
-footer li {
+.footerdesktop li {
     padding-right: 1rem;
+}
+.footermobile p {
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 /* RESPONSYWNOŚĆ*/
@@ -387,6 +402,12 @@ footer li {
     .learning {
         display: none;
     }
+    .exhibit {
+        display: none;
+    }
+    .footerdesktop {
+        display: none;
+    }
 }
 /* for desktop */
 @media only screen and (min-width: 768px) {
@@ -400,6 +421,12 @@ footer li {
         display: none;
     }
     .learningmobile {
+        display: none;
+    }
+    .exhibitmobile {
+        display: none;
+    }
+    .footermobile {
         display: none;
     }
 }
