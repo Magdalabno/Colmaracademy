@@ -5,7 +5,6 @@ html {
     font-size: 16px;
     color: gray;
     font-family: Tahoma, Verdana, sans-serif;
-    margin: 0 4rem;
     background-color: ghostwhite;
 }
 body {
@@ -27,11 +26,23 @@ h3 {
 img {
     width: 100%;
 }
-nav {
+.desktop {
     background-color: ghostwhite;
     display: flex;
     justify-content: space-between;
     height: 4rem;
+}
+.mobile {
+    display: flex;
+    background-color: ghostwhite;
+    justify-content: space-around;
+    height: 4rem;
+    align-items: center;
+    margin: 0 1rem;
+}
+.mobile img {
+    max-height: 40px;
+    width: auto;
 }
 .menu a {
     color: gray;
@@ -101,6 +112,40 @@ nav {
     color: gold;
     transition: 0.3s;
 }
+.startmobile {
+    background-color: lightgray;
+    color: rgba(0, 0, 0, 0.7);
+}
+.starttextmobile {
+    padding: 0 1rem 2rem 1rem;
+}
+.starttextmobile p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.starttextmobile h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+.buttonmobile {
+    text-align: center;
+    max-width: 22rem;
+    padding: 0.7rem 0 0.7rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0 auto;  
+}
+.buttonmobile a {
+    color: ghostwhite;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+.buttonmobile a:hover {
+    color: gold;
+    transition: 0.3s;
+}
 .information {
     display: flex;
     color: rgba(0, 0, 0, 0.7);
@@ -148,6 +193,25 @@ nav {
 }
 .infimgleft img {
     padding: 1rem;
+}
+.informationmobile {
+    padding: 1rem 1rem 1rem 1rem;
+    border-bottom: 1 px solid rgba(0, 0, 0, 0.3)
+}
+.infimgmobile {
+    color:rgba(0, 0, 0, 0.7);
+}
+.inftextmobile {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+}
+.inftextmobile h3 {
+    font-size: 1.25rem;
+}
+.inftextmobile p {
+    font-size: 1rem;
+}
+.inftextmobile a {
+    font-size: 0.85rem;
 }
 .title {
     font-weight: bold;
@@ -241,7 +305,7 @@ footer {
     align-items: flex-start;
     padding: 0 0.5rem 1.5rem 1rem;
     background-color: ghostwhite;
-    border-top: 2px solid lightgray;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 footer ul {
     margin-top: 0.75rem;
@@ -291,6 +355,33 @@ footer li {
         max-width: 15rem;
     }
 }
+/* for mobile */
 @media only screen and (max-width: 768px) {
-    
+    .desktop {
+        display: none;
+    }
+    .start {
+        display: none;
+    }
+    .information {
+        display: none;
+    }
+    .learning {
+        display: none;
+    }
+}
+/* for desktop */
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+    .startmobile {
+        display: none;
+    }
+    .informationmobile {
+        display: none;
+    }
+    .learningmobile {
+        display: none;
+    }
 }
